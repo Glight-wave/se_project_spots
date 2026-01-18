@@ -1,19 +1,13 @@
 .footer {
-padding: 60px 0;
-display: flex;
-justify-content: center;
-
-
-
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
 }
 
-.footer__copyright{
+.footer__copyright {
   font-size: 16px;
-  color: #212121;
+  margin: 0;
+  color: #212121B2;
   max-width: 1376px;
-
 }
 
-@media  and  (max-width: 680px){
-
-}

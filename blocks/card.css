@@ -40,7 +40,7 @@
 }
 
 .card__like-button:hover {
-  opacity: (from: 0.4 to 1);
+  opacity: 1;
 }
 
 @media screen and (max-width: 630px) {

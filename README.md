@@ -24,3 +24,10 @@
 For image optimization, the following tool was used:
 
 https://glight-wave.github.io/se_project_spots/
+
+
+**Video**
+
+<p>This is a video that show the break down of the web page on what it is meant to look like. </P>
+
+https://www.loom.com/share/0480ca0d97d14b9b82ccc42b3eebfe2f 

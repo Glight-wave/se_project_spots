@@ -19,7 +19,6 @@
 .modal__container {
   max-width: 730px;
   width: 100%;
-  boarder-radius: 8px;
   background-color: #fff;
   padding: 32px 50px;
   position: relative;
@@ -34,13 +33,20 @@
   height: 40px;
   background: none;
   border: none;
+  cursor: pointer;
+  transition: opacity 150ms ease;
+}
+
+.modalclose-btn:hover,
+.modal__close-btn:focus {
+  opacity: 0.8;
 }
 
 .modal__title {
   margin: 0 0 32px;
   font-size: 32px;
   color: #212121;
-  font-family: poppins;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 .modal__form {
@@ -52,7 +58,7 @@
   margin: 0 0 32px;
   font-size: 16px;
   color: #212121b2;
-  font-family: poppins;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 .modal__input {
@@ -60,9 +66,9 @@
   margin: 8px 0 0;
   width: 100%;
   font-style: poppins;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
-  font-family: poppins;
+  font-family: "Poppins", Arial, sans-serif;
   color: #212121;
 
   border-radius: 8px;
@@ -73,6 +79,7 @@
 .modal__profile-name-input {
   padding: 12px 16px;
   border: 1px solid #21212166;
+  font-size: 20px;
 }
 
 .modal__input::placeholder {
@@ -91,8 +98,5 @@
   gap: 8px;
   align-items: center;
   justify-content: center;
-}
-
-.modal__profile-name-input {
-  font-size: 20px;
+  cursor: pointer;
 }
